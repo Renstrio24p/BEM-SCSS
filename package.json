@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Waren Gador",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
