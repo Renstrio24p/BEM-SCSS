@@ -4,7 +4,7 @@
   "description": "BEM Exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass":"node-sass sass/main.scss css/styles.css"
   },
   "author": "Waren Gador",
   "license": "ISC",
