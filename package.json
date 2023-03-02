@@ -8,11 +8,10 @@
   },
   "author": "Waren Gador",
   "license": "ISC",
-  "Devdependencies": {
-    "node-sass": "^8.0.0"
-  },
-
   "dependencies": {
     "jquery": "^3.6.3"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
   }
 }
