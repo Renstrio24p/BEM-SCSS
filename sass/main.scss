@@ -6,6 +6,8 @@ body {
 
 /* No BEM */
 
+
+
 .card-light {
     background-color: #eee;
     margin: 2em;
@@ -29,6 +31,9 @@ img {
 
 /* Global Shared Styles */
 
+$color-primary-light: #eeec86;
+$color-primary-dark: rgba(51,47,47.4);
+
 .card {
     margin: 2em;
     max-width: 300px;
@@ -38,9 +43,9 @@ img {
 }
 
 .card--light {
-    background-color: white;
+    background-color: rgba($color-primary-light,0.8);
 }
 
 .card--dark {
-    background-color: #332f2f;
+    background-color: rgba($color-primary-dark,0.8);
 }
